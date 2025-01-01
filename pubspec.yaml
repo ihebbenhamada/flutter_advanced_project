@@ -1,0 +1,50 @@
+name: flutter_advanced_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # State Management
+  flutter_bloc: ^8.1.6
+  # A tidy utility to handle offline/online connectivity like a Boss.
+  flutter_offline: ^4.0.0
+  # Classes and helper functions that support JSON code generation via the `json_serializable` package
+  json_annotation: ^4.9.0
+  # Code Generator (Mainly used with cubit & retrofit)
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  # Dependency injection
+  get_it: ^8.0.3
+  # Networking
+  dio: ^5.7.0
+  retrofit: ^4.4.2
+  retrofit_generator: ^9.1.5
+  # Pretty Dio logger is a Dio interceptor that logs network calls in a pretty, easy to read format
+  pretty_dio_logger: ^1.4.0
+  # Localization
+  intl: ^0.19.0
+  easy_localization: ^3.0.7
+  # Splash Screen
+  flutter_native_splash: ^2.4.4
+  # Render After Effects animations natively on Flutter.
+  lottie: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  json_serializable: ^6.9.0
+  build_runner: ^2.4.13
+
+flutter:
+
+  uses-material-design: true
