@@ -12,6 +12,10 @@ class AppImages {
   static const String docdocLogo = '$svgsFolder/docdoc_logo.svg';
   static const String docdocLogoLowOpacity =
       '$svgsFolder/docdoc_logo_low_opacity.svg';
+
+  /// PNGS
   static const String docImage = '$pngFolder/doctor.png';
-  static const String kilwa = '$imagesFolder/kilwa.png';
+  static const String google = '$pngFolder/google.png';
+  static const String facebook = '$pngFolder/facebook.png';
+  static const String apple = '$pngFolder/apple.png';
 }
