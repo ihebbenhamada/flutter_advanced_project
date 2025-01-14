@@ -3,7 +3,7 @@ import 'package:flutter_advanced_project/core/image_urls/image_urls.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../../core/theming/text_styles/text_styles.dart';
+import '../../../../core/theming/text_styles.dart';
 
 class DocLogoAndName extends StatelessWidget {
   const DocLogoAndName({super.key});
@@ -17,7 +17,7 @@ class DocLogoAndName extends StatelessWidget {
         10.w.horizontalSpace,
         Text(
           'DocDoc',
-          style: TextStyles.font24black700,
+          style: TextStyles.font24blackBold,
         ),
       ],
     );

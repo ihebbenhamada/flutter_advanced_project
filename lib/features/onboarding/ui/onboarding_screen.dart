@@ -7,7 +7,7 @@ import 'package:flutter_advanced_project/features/onboarding/ui/widgets/doc_imag
 import 'package:flutter_advanced_project/features/onboarding/ui/widgets/doc_logo_name.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../core/theming/text_styles/text_styles.dart';
+import '../../../core/theming/text_styles.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

@@ -3,7 +3,7 @@ import 'package:flutter_advanced_project/core/image_urls/image_urls.dart';
 import 'package:flutter_advanced_project/core/theming/color.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../../core/theming/text_styles/text_styles.dart';
+import '../../../../core/theming/text_styles.dart';
 
 class DocImageAndText extends StatelessWidget {
   const DocImageAndText({super.key});
@@ -32,7 +32,7 @@ class DocImageAndText extends StatelessWidget {
           left: 0,
           child: Text(
             'Best Doctor\nAppointment App',
-            style: TextStyles.font32blueBold,
+            style: TextStyles.font32blueExtraBold,
             textAlign: TextAlign.center,
           ),
         ),

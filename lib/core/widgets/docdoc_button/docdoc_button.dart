@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_project/core/theming/color.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../theming/text_styles/text_styles.dart';
+import '../../theming/text_styles.dart';
 
 class DocDocButton extends StatelessWidget {
   const DocDocButton({super.key, required this.text, required this.onPress});
   final String text;
-  final Function() onPress;
+  final VoidCallback onPress;
   @override
   Widget build(BuildContext context) {
     return TextButton(
@@ -14,8 +15,8 @@ class DocDocButton extends StatelessWidget {
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(AppColors.mainBlue),
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-        minimumSize: WidgetStateProperty.all(
-          const Size(double.infinity, 52),
+        fixedSize: WidgetStateProperty.all(
+          Size(double.infinity, 50.h),
         ),
         shape: WidgetStateProperty.all(
           RoundedRectangleBorder(
@@ -26,7 +27,7 @@ class DocDocButton extends StatelessWidget {
       child: Center(
         child: Text(
           text,
-          style: TextStyles.font16White600,
+          style: TextStyles.font16WhiteSemiBold,
         ),
       ),
     );
