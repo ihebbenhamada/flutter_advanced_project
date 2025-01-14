@@ -13,4 +13,5 @@ class AppImages {
   static const String docdocLogoLowOpacity =
       '$svgsFolder/docdoc_logo_low_opacity.svg';
   static const String docImage = '$pngFolder/doctor.png';
+  static const String kilwa = '$imagesFolder/kilwa.png';
 }
